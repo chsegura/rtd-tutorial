@@ -3,10 +3,10 @@ Estructura
 
 .. Estructura:
 
-Installation
+hw-monitor
 ------------
 
-To use Lumache, first install it using pip:
+**hw-monitor** consta de dos archivos de R shiny (server.R y ui.R). En ellos se define la apariencia y distribucion de algunos textos dentro de la aplicacion. Los textos mas largos se encuentran en un directorio **docs/** que ademas de tener estos archivos de texto, tiene algunas imagenes usadas como ejemplos. El directorio **www/** tiene linkeados los repositorios externos, ademas de otras imagenes y logos usados en la applicacion.
 
 .. code-block:: console
 
