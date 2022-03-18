@@ -1,7 +1,7 @@
 Estructura
 =====
 
-.. hw-monitor:
+.. Estructura:
 
 Installation
 ------------
