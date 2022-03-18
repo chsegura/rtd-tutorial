@@ -9,7 +9,7 @@ and offers a *simple* and *intuitive* API.
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
 
-.. nota::
+.. note::
 
    Este proyecto está en desarrollo activo.
 
