@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Instructivo hw-monitor'
+copyright = '2021, chsegura'
+author = 'chsegura'
 
 release = '0.1'
 version = '0.1.0'
