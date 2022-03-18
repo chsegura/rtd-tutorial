@@ -14,7 +14,4 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-   usage
-   usage2
+estructura
