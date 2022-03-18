@@ -15,4 +15,4 @@ Contenidos
 .. toctree::
 
    estructura
-   ETI
+   eti
