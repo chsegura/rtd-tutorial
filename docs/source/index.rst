@@ -1,8 +1,8 @@
-Welcome to Lumache's documentation!
+Bienvenido al instructivo de hw-monitor!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
+**hw-monitor** es una aplicacion de R shiny para monitorear conkdiciones de olas de calor en Chile.
+
 It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
 and offers a *simple* and *intuitive* API.
 
