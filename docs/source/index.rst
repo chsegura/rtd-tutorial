@@ -9,9 +9,9 @@ Para informacion sobre la estructura en el servidor asi como de los repositorios
 
    Este proyecto está en desarrollo activo.
 
-Contents
+Contenidos
 --------
 
 .. toctree::
 
-estructura
+   estructura
