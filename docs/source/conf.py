@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'Instructivo hw-monitor'
-copyright = '2021, chsegura'
+copyright = '2021, DGEO UDEC'
 author = 'chsegura'
 
 release = '0.1'
