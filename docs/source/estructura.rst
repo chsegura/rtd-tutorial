@@ -3,7 +3,7 @@ Estructura
 
 .. Estructura:
 
-Con la finalidad de realizar un monitoreo operacional, es necesario establecer un orden en los archivos tanto generados como recopilados desde fuentes externas. Los archivos se agrupan en directorios, que a su vez se organizan en una jerarquía. Cada uno de los directorios se describe en las secciones siguientes.::
+Con la finalidad de realizar un monitoreo operacional, es necesario establecer un orden en los archivos tanto generados como recopilados desde fuentes externas. Los archivos se agrupan en directorios, que a su vez se organizan en una jerarquía. Cada uno de los directorios se describe en las secciones siguientes. ::
 
    .
    |---- hw-monitor
