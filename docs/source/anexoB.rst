@@ -3,7 +3,7 @@ Anexo B: repositorios externos
 
 .. Anexo B: repositorios externos:
 
-JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). En estos scripts hay que modificar las direcciones.
+JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). En estos scripts hay que modificar las direcciones. ::
 
   .
   |---- JMA
