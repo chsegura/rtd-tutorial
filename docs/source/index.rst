@@ -11,7 +11,8 @@ Contenidos
 --------
 
 .. toctree::
-
+   :numbered:
+   
    estructura
    monitor
    anexoA
