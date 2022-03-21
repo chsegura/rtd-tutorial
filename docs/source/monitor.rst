@@ -21,7 +21,7 @@ hw-monitor es una aplicación de Shiny cuya función principal es mostrar los pr
 .. Important::
    Para generar hw-monitor lo primero es tener instalado R. 
 
-instalando Shiny
+Instalando Shiny
 ====
 
 .. note::
@@ -35,7 +35,7 @@ El su - ejecuta el siguiente comando como si estuviera en el propio entorno del 
 
 install.packages es el comando R que se usa para instalar paquetes R. Entonces, en este comando específicamente, el paquete Shiny se instala desde el repositorio especificado.
 
-instalando Shiny server
+Instalando Shiny server
 ====
 
 Instalar gdebi ::
