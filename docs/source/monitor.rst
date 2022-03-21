@@ -22,7 +22,7 @@ hw-monitor es una aplicación de Shiny cuya función principal es mostrar los pr
    Para generar hw-monitor lo primero es tener instalado R. 
 
 Instalando Shiny
-====
+----
 
 .. note::
    Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas  en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
@@ -36,7 +36,7 @@ El su - ejecuta el siguiente comando como si estuviera en el propio entorno del 
 install.packages es el comando R que se usa para instalar paquetes R. Entonces, en este comando específicamente, el paquete Shiny se instala desde el repositorio especificado.
 
 Instalando Shiny server
-====
+----
 
 Instalar gdebi ::
 
@@ -57,14 +57,14 @@ El servidor Shiny debería iniciarse automáticamente. Consulta su estado ::
 En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por ejemplo, ejemplo.com:3838).
 
 Instalar paquetes de R
-====
+----
 
 Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va más allá de lo que utiliza actualmente hw-monitor, sin embargo es preferible instalar todo de una vez y en caso de implementar nuevas visualizaciones dentro de la aplicación. ::
 
    sudo su - -c "R -e \"install.packages(c('shiny','dplyr','shinythemes','tidyverse','lubridate','RCurl','R.matlab','tmap','spData','ncdf4','rjson','zoo','xts','dygraphs','hydroTSM','shinyBS','shinyWidgets','rgdal','sf','rgeos','leaflet','colorRamps','zip','grid','gridExtra','readr','shinyjs','leaflet.esri','httpuv','mime','jsonlite','xtable','digest','htmltools','R6','sourcetools','later','promises','crayon','rlang','fastmap','Rcpp','BH','magrittr','sp','lattice','base64enc','crosstalk','htmlwidgets','markdown','png','RColorBrewer','raster','scales','viridis','leaflet.providers','lazyeval','ggplot2','yaml','xfun','farver','labeling','munsell','viridisLite','lifecycle','gtable','MASS','mgcv','reshape2','tibble','withr','glue','colorspace','nlme','Matrix','plyr','stringr','cli','fansi','pillar','pkgconfig','assertthat','utf8','vctrs','stringi','ellipsis','hms','clipr','leaflet.extras','evaluate','pkgload','praise','desc','pkgbuild','rprojroot','rstudioapi','callr','prettyunits','backports','processx','ps','highr','knitr','tinytex','foreign','classInt','DBI','units','e1071','class','KernSmooth','rex','httr','curl','openssl','askpass','sys','commonmark','xml2','hunspell','testthat','rmarkdown','reactlog','maptools','XML','maps','RJSONIO','purrr','covr','egg','spelling','shinyAce','V8'), repos='http://cran.rstudio.com/')\""
 
 Debugging
-====
+----
 
 Para revisar posibles errores al hacer modificaciones a la aplicación hay que editar el archivo /etc/shiny-server/shiny-server.conf, esto que guarda un .log. En el archivo deben agregarse las siguientes líneas :: 
 
