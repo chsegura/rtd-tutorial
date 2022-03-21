@@ -1,5 +1,6 @@
+****
 hw-monitor
-=====
+****
 
 .. hw-monitor:
 
@@ -22,7 +23,7 @@ hw-monitor es una aplicación de Shiny cuya función principal es mostrar los pr
    Para generar hw-monitor lo primero es tener instalado R. 
 
 Instalando Shiny
-----
+====
 
 .. note::
    Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas  en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
