@@ -1,4 +1,4 @@
-Estructura
+hw-monitor
 =====
 
 .. Estructura:
