@@ -15,3 +15,5 @@ Temperature in central Chile: meteorological observations at the “General Frei
 SERVIMET archive: synoptic charts issued by the Chilean Navy Weather Service (SERVIMET) are accessed at http://web.directemar.cl/met/jturno/cartas/imagen.jpg
 
 JMA archive: dynamic charts showing OLR and 200-hPa stream function and wave activity flux (anomaly) are issued by the Japan Meteorological Agency (JMA, Tokyo Climate Center, Climate Prediction Division), and are accessed at: https://ds.data.jma.go.jp/tcc/tcc/products/clisys/anim/anim_tp.html
+
+MJO GFS-based forecast: figures from the US NOAA Climate Prediction Center, accessed at https://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/foregfs.shtml
