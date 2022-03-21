@@ -1,11 +1,11 @@
 hw-monitor
 =====
 
-.. Estructura:
+.. hw-monitor:
 
-Con la finalidad de realizar un monitoreo operacional, es necesario establecer un orden en los archivos tanto generados como recopilados desde fuentes externas. Los archivos se agrupan en directorios, que a su vez se organizan en una jerarquía. Cada uno de los directorios se describe en las secciones siguientes. ::
+hw-monitor es una aplicación de Shiny cuya función principal es mostrar los pronósticos diarios del índice sETI. Consta de los archivos server.R y ui.R donde se define la apariencia y distribución de algunos textos dentro de la aplicación. Los textos más largos se encuentran en un directorio docs/ que además de tener estos archivos de texto, tiene algunas imágenes usadas como ejemplos. El directorio www/ tiene linkeados repositorios externos, además de otras imágenes y logos usados en la aplicación. ::
 
-   .
+.
    |---- hw-monitor
    |     |---- server.R
    |     |---- ui.R
@@ -17,17 +17,6 @@ Con la finalidad de realizar un monitoreo operacional, es necesario establecer u
    |     |     |     |---- SERVIMET
    |     |     |---- figures
    |     |     |---- upload
-
-   |---- ETI
-   |     |---- data
-   |     |---- figures
-   |     |---- files
-   |     |---- logfiles
-   |     |---- output
-   |     |---- scripts
-   |     |---- tmp
-   |     |---- upload
-
-   |---- JMA
-   |---- mjo_repo
-   |---- SERVIMET
+   
+.. note::
+   Para generar hw-monitor lo primero es tener instalado R. 
