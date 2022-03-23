@@ -6,9 +6,9 @@ Recursos
 Diversas fuentes de datos, archivos y figuras son utilizadas en la aplicación
 
 
-- Model data: Z500 is accessed from the Global Forecast System (GFS) and the Global Ensemble Forecast System (GEFS) from NOAA / National Weather Service, USA, accessed at https://nomads.ncep.noaa.gov/.
+- Model data: Z500 is accessed from the Global Forecast System (GFS) and the Global Ensemble Forecast System (GEFS) from NOAA / National Weather Service, USA, accessed at https://nomads.ncep.noaa.gov/
 
-- MJO index monitoring: The observed Wheeler and Hendon MJO index is obtained from the Bureau of Meteorology, Australia, accessed at http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt.
+- MJO index monitoring: The observed Wheeler and Hendon MJO index is obtained from the Bureau of Meteorology, Australia, accessed at http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt
 
 - Temperature in central Chile: meteorological observations at the “General Freire” weather station near Curicó (34.97ºS, 71.22ºW, 225 m asl) are carried out by the Chilean National Weather Directorate (DMC).
 
