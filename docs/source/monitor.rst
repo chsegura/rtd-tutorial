@@ -5,8 +5,6 @@ hw-monitor
 .. hw-monitor:
 
 **hw-monitor** es una aplicación de **Shiny** cuya función principal es mostrar los pronósticos diarios del índice **sETI**. Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
-
-Consta de los archivos server.R y ui.R donde se define la apariencia y distribución de algunos textos dentro de la aplicación. Los textos más largos se encuentran en un directorio docs/ que además de tener estos archivos de texto, tiene algunas imágenes usadas como ejemplos. El directorio www/ tiene linkeados repositorios externos, además de otras imágenes y logos usados en la aplicación.
    
    hw_dynamic
    ├── hw-monitor
@@ -23,16 +21,15 @@ Consta de los archivos server.R y ui.R donde se define la apariencia y distribuc
 
 ``ui.R``: 
    Este archivo que significa interfaz de usuario (del inglés), es donde se definen las diferentes partes de las aplicaciones fronterizadas (es decir, lo que ven los usuarios finales).
-`
-`server.R``:
+   
+``server.R``:
     Este archivo por el contrario, es el backend o el motor de la aplicación, es decir, donde se procesan los datos.
 
-
-
 ``docs``:
-``external_repository``:
-``figures``:
-``upload``:
+   Este directorio almacena algunos textos predefinidos, además de imágenes estáticas que se muestran en distintas pestañas de la aplicación. 
+   
+``www``: 
+   El directorio ``www`` además de imágenes varias y logos usados en la aplicación, tiene linkeados en ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos más adelante). Además de imágenes y logos usados en la aplicación. En ``figures`` y ``upload`` existen repositorios internos de imagenes y archivos generados en ``hw_dynamic/ETI``. 
 
     
 .. Important::
