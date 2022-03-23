@@ -4,9 +4,9 @@ hw-monitor
 
 .. hw-monitor:
 
-hw-monitor es una aplicación de Shiny cuya función principal es mostrar los pronósticos diarios del índice sETI. Consta de los archivos server.R y ui.R donde se define la apariencia y distribución de algunos textos dentro de la aplicación. Los textos más largos se encuentran en un directorio docs/ que además de tener estos archivos de texto, tiene algunas imágenes usadas como ejemplos. El directorio www/ tiene linkeados repositorios externos, además de otras imágenes y logos usados en la aplicación.
+**hw-monitor** es una aplicación de **Shiny** cuya función principal es mostrar los pronósticos diarios del índice **sETI**. Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
 
-Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
+Consta de los archivos server.R y ui.R donde se define la apariencia y distribución de algunos textos dentro de la aplicación. Los textos más largos se encuentran en un directorio docs/ que además de tener estos archivos de texto, tiene algunas imágenes usadas como ejemplos. El directorio www/ tiene linkeados repositorios externos, además de otras imágenes y logos usados en la aplicación.
    
    hw_dynamic
    ├── hw-monitor
@@ -21,12 +21,14 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
            ├── figures
            └── upload
 
-``server.R``:
-    This is the index file for the documentation, or what lives at ``/``.
-    It normally contains a *Table of Contents* that will link to all other
-    pages of the documentation.
+``ui.R``: 
+   Este archivo que significa interfaz de usuario (del inglés), es donde se definen las diferentes partes de las aplicaciones fronterizadas (es decir, lo que ven los usuarios finales).
+`
+`server.R``:
+    Este archivo por el contrario, es el backend o el motor de la aplicación, es decir, donde se procesan los datos.
 
-``ui.R``:
+
+
 ``docs``:
 ``external_repository``:
 ``figures``:
