@@ -41,7 +41,9 @@ Instalando Shiny
 .. note::
    Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas  en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
 
-Si está familiarizado con R, es posible que tenga la tentación de instalar paquetes directamente desde R en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta R. ::
+Si está familiarizado con R, es posible que tenga la tentación de instalar paquetes directamente desde R en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta R. 
+
+.. code:: bash
 
    sudo su - -c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
 
@@ -58,15 +60,21 @@ Instalar gdebi
 
    sudo apt install gdebi-core
 
-Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. ::
+Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. 
+
+.. code:: bash
 
    wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.17.973-amd64.deb
 
-Use gdebi para instalar el paquete Shiny Server::
+Use gdebi para instalar el paquete Shiny Server
+
+.. code:: bash
 
    sudo gdebi shiny-server-1.5.17.973-amd64.deb
 
-El servidor Shiny debería iniciarse automáticamente. Consulta su estado ::
+El servidor Shiny debería iniciarse automáticamente. Consulta su estado 
+
+.. code:: bash
 
    sudo systemctl status shiny-server.service
 
@@ -75,7 +83,9 @@ En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por 
 Instalando paquetes de R
 ====
 
-Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va más allá de lo que utiliza actualmente hw-monitor, sin embargo es preferible instalar todo de una vez y en caso de implementar nuevas visualizaciones dentro de la aplicación. ::
+Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va más allá de lo que utiliza actualmente hw-monitor, sin embargo es preferible instalar todo de una vez y en caso de implementar nuevas visualizaciones dentro de la aplicación. 
+
+.. code:: bash
 
    sudo su - -c "R -e \"install.packages(c('shiny','dplyr','shinythemes','tidyverse','lubridate','RCurl','R.matlab','tmap','spData','ncdf4','rjson','zoo','xts','dygraphs','hydroTSM','shinyBS','shinyWidgets','rgdal','sf','rgeos','leaflet','colorRamps','zip','grid','gridExtra','readr','shinyjs','leaflet.esri','httpuv','mime','jsonlite','xtable','digest','htmltools','R6','sourcetools','later','promises','crayon','rlang','fastmap','Rcpp','BH','magrittr','sp','lattice','base64enc','crosstalk','htmlwidgets','markdown','png','RColorBrewer','raster','scales','viridis','leaflet.providers','lazyeval','ggplot2','yaml','xfun','farver','labeling','munsell','viridisLite','lifecycle','gtable','MASS','mgcv','reshape2','tibble','withr','glue','colorspace','nlme','Matrix','plyr','stringr','cli','fansi','pillar','pkgconfig','assertthat','utf8','vctrs','stringi','ellipsis','hms','clipr','leaflet.extras','evaluate','pkgload','praise','desc','pkgbuild','rprojroot','rstudioapi','callr','prettyunits','backports','processx','ps','highr','knitr','tinytex','foreign','classInt','DBI','units','e1071','class','KernSmooth','rex','httr','curl','openssl','askpass','sys','commonmark','xml2','hunspell','testthat','rmarkdown','reactlog','maptools','XML','maps','RJSONIO','purrr','covr','egg','spelling','shinyAce','V8'), repos='http://cran.rstudio.com/')\""
 
