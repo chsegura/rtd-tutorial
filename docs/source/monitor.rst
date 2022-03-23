@@ -92,7 +92,7 @@ Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va m�
 Debugging
 ====
 
-Para revisar posibles errores al hacer modificaciones a la aplicación hay que editar el archivo /etc/shiny-server/shiny-server.conf, esto que guarda un .log. En el archivo deben agregarse las siguientes líneas :: 
+Para revisar posibles errores al hacer modificaciones a la aplicación hay que editar el archivo ``/etc/shiny-server/shiny-server.conf``, esto que guarda un ``.log``. En el archivo deben agregarse las siguientes líneas :: 
 
    # Instruct Shiny Server to run applications as the user "shiny"
    run_as shiny;
@@ -103,7 +103,7 @@ Para revisar posibles errores al hacer modificaciones a la aplicación hay que e
    
    # Define a server that listens on port 3838
 
-Ahora los .log se respaldan en /var/log/shiny-server/ además de mostrar un mensaje en pantalla cada vez que se ingrese a la aplicación (y exista un error)
+Ahora los ``.log`` se respaldan en ``/var/log/shiny-server/`` además de mostrar un mensaje en pantalla cada vez que se ingrese a la aplicación (y exista un error).
 
 
 
