@@ -70,7 +70,7 @@ El servidor Shiny debería iniciarse automáticamente. Consulta su estado ::
 
 En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por ejemplo, ejemplo.com:3838).
 
-Instalar paquetes de R
+Instalando paquetes de R
 ====
 
 Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va más allá de lo que utiliza actualmente hw-monitor, sin embargo es preferible instalar todo de una vez y en caso de implementar nuevas visualizaciones dentro de la aplicación. ::
