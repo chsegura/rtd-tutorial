@@ -25,10 +25,10 @@ hw-monitor
 ``server.R``:
     Este archivo por el contrario, es el backend o el motor de la aplicación, es decir, donde se procesan los datos.
 
-``docs``:
+``docs/``:
    Este directorio almacena algunos textos predefinidos, además de imágenes estáticas que se muestran en distintas pestañas de la aplicación. 
    
-``www``: 
+``www/``: 
    El directorio ``www`` además de imágenes varias y logos usados en la aplicación, tiene linkeados en ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos más adelante). Además de imágenes y logos usados en la aplicación. En ``figures`` y ``upload`` existen repositorios internos de imagenes y archivos generados en ``hw_dynamic/ETI``. 
 
     
