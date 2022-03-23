@@ -20,7 +20,18 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
                └── SERVIMET
            ├── figures
            └── upload
-        
+
+``server.R``:
+    This is the index file for the documentation, or what lives at ``/``.
+    It normally contains a *Table of Contents* that will link to all other
+    pages of the documentation.
+
+``ui.R``:
+``docs``:
+``external_repository``:
+``figures``:
+``upload``:
+
     
 .. Important::
    Para generar hw-monitor lo primero es tener instalado R. 
