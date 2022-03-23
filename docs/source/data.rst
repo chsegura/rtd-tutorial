@@ -10,7 +10,7 @@ Diversas fuentes de datos, archivos y figuras son utilizadas en la aplicación
 
 - MJO index monitoring: The observed Wheeler and Hendon MJO index is obtained from the Bureau of Meteorology, Australia, accessed at http://www.bom.gov.au/climate/mjo/graphics/rmm.74toRealtime.txt
 
-- Temperature in central Chile: meteorological observations at the “General Freire” weather station near Curicó (34.97ºS, 71.22ºW, 225 m asl) are carried out by the Chilean National Weather Directorate (DMC).
+- Temperature in central Chile: meteorological observations at the **“General Freire”** weather station near Curicó (34.97ºS, 71.22ºW, 225 m asl) are carried out by the Chilean National Weather Directorate (DMC).
 
 - SERVIMET archive: synoptic charts issued by the Chilean Navy Weather Service (SERVIMET) are accessed at http://web.directemar.cl/met/jturno/cartas/imagen.jpg
 
