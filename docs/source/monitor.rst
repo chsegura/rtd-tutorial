@@ -52,7 +52,9 @@ install.packages es el comando R que se usa para instalar paquetes R. Entonces, 
 Instalando Shiny server
 ====
 
-Instalar gdebi ::
+Instalar gdebi 
+
+.. code:: bash
 
    sudo apt install gdebi-core
 
