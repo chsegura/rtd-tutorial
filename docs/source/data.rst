@@ -1,7 +1,7 @@
 Recursos
 =====
 
-.. Fuentes de datos:
+.. Recursos:
 
 Diversas fuentes de datos, archivos y figuras son utilizadas en la aplicación
 
