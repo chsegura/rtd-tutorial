@@ -36,7 +36,7 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
       
 ``run.csh``: Este script es programado en crontab para ejecutarse diariamente. En él se definen algunas variables que luego son utilizadas en ``runSETI.csh``. 
 
-``runSETI.csh``: Este es el script principal que donde es generado el índice sETI. Dentro de él se ejecutan una serie de otros scripts secundarios. 
+``runSETI.csh``: Este es el script principal donde es generado el índice sETI. Dentro de él se ejecutan una serie de otros scripts secundarios. 
 
 ``data/``: Aquí son guardados los archivos utilizados en la generación del índice. 
 
