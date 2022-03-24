@@ -5,17 +5,32 @@ Anexo A: ETI
 
 ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pronóstico diario del índice sETI. Donde se debe programar a medio dia en crontab la ejecución del script run.csh ::
 
-  .
-  |---- ETI
-  |     |---- data
-  |     |---- figures
-  |     |---- files
-  |     |---- logfiles
-  |     |---- output
-  |     |---- scripts
-  |     |---- tmp
-  |     |---- upload
+  hw_dynamic
+  ├── ETI
+      ├── data
+      ├── figures
+      ├── files
+      ├── logfiles
+      ├── output
+      ├── scripts
+      ├── tmp
+      └── upload
+      
+``data/``: 
 
+``figures/``: 
+
+``files/``: 
+
+``logfiles/``: 
+
+``output/``: 
+
+``scripts/``: 
+
+``tmp/``: 
+
+``upload/``: 
    
 Antes de ejecutar estas rutinas se deben cambiar algunas direcciones de los archivos 
 
