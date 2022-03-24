@@ -4,7 +4,7 @@
 
 project = 'Instructivo hw-monitor'
 copyright = '2021, DGEO UDEC'
-author = 'chsegura'
+author = 'dgeo'
 
 release = '0.1'
 version = '0.1.0'
