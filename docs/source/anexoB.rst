@@ -17,3 +17,13 @@ JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple
   └── SERVIMET
       ├── cartas_color
       └── servimet.csh
+
+JMA
+====
+
+mjo_repo
+====
+
+SERVIMET
+====
+
