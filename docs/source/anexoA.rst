@@ -16,6 +16,7 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
 
   hw_dynamic
   ├── ETI
+      ├── runSETI.csh
       ├── data
       ├── figures
       ├── files
