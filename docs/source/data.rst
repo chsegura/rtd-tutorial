@@ -3,7 +3,7 @@ Recursos
 
 .. Recursos:
 
-Diversas fuentes de datos, archivos y figuras son utilizadas en la aplicación
+Diversas fuentes de datos son utilizadas en la aplicación
 
 
 - Datos de Modelo: Z500 se accede desde el Global Forecast System (GFS) y el Global Ensemble Forecast System (GEFS) de NOAA / Servicio Meteorológico Nacional, EE. UU., al que se accede en https://nomads.ncep.noaa.gov/
