@@ -4,7 +4,7 @@ Estructura
 
 .. Estructura:
 
-Con la finalidad de realizar un monitoreo operacional es necesario establecer un orden en los archivos tanto generados como recopilados desde fuentes externas. Luego de establecer un directorio base, referido aqui como ``hw_dynamic``, las distintas componentes utilizadas en **hw-monitor** se agrupan en subdirectorios, que a su vez se organizan en su propia jerarquía. El sistema se ve de esta forma: ::
+Con la finalidad de realizar un monitoreo operacional es necesario establecer un orden en los archivos tanto generados como recopilados desde fuentes externas. Luego de establecer un directorio base, referido aqui como ``hw_dynamic``, las distintas componentes utilizadas en **hw-monitor** se agrupan en subdirectorios, que a su vez se organizan en su propia jerarquía. El sistema de archivos se ve de esta forma: ::
 
    hw_dynamic
    ├── hw-monitor
