@@ -12,7 +12,7 @@ El directorio ``ETI`` contiene una serie de subdirectorios, rutinas y scripts qu
 
    Índice sETI (panel superior)
 
-Los archivos y directorios de mayor importancia se detallan a continuación: 
+Los archivos y directorios de mayor importancia se detallan a continuación: ::
 
   hw_dynamic
   ├── ETI
