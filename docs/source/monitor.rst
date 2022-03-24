@@ -40,18 +40,18 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
 Instalando Shiny
 ====
 
-Si está familiarizado con R, es posible que tenga la tentación de instalar paquetes directamente desde R en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta R. 
+Si está familiarizado con **R**, es posible que tenga la tentación de instalar paquetes directamente desde **R** en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta **R**. 
 
 .. code:: bash
 
    sudo su - -c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
 
-El su - ejecuta el siguiente comando como si estuviera en el propio entorno del usuario, y la opción -c especifica el comando que se ejecutará. Ese comando, en este caso, es lo que sigue entre comillas dobles.
+El **su -** ejecuta el siguiente comando como si estuviera en el propio entorno del usuario, y la opción **-c** especifica el comando que se ejecutará. Ese comando, en este caso, es lo que sigue entre comillas dobles.
 
-install.packages es el comando R que se usa para instalar paquetes R. Entonces, en este comando específicamente, el paquete Shiny se instala desde el repositorio especificado.
+``install.packages`` es el comando **R** que se usa para instalar paquetes **R**. Entonces, en este comando específicamente, el paquete Shiny se instala desde el repositorio especificado.
 
 .. note::
-   Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas  en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
+   Shiny es una biblioteca para el lenguaje de programación **R** que permite crear aplicaciones web interactivas  en **R** nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
 
 Instalando Shiny server
 ====
