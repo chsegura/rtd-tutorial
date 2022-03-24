@@ -56,7 +56,7 @@ install.packages es el comando R que se usa para instalar paquetes R. Entonces, 
 Instalando Shiny server
 ====
 
-Instalar gdebi 
+Instalar ``gdebi`` 
 
 .. code:: bash
 
@@ -82,7 +82,7 @@ El servidor Shiny debería iniciarse automáticamente. Consulta su estado
 
 En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por ejemplo, ejemplo.com:3838).
 
-.. note:: Quees e
+.. note:: 
    GDebi es una pequeña herramienta que nos permite instalar paquetes DEB de manera rápida y sencilla sin tener que lanzar el Centro de Software de Ubuntu.
 
 Instalando paquetes de R
