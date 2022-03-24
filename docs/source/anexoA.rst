@@ -1,7 +1,7 @@
-Anexo A: ETI
+Repositorios: interno
 =====
 
-.. Anexo A: ETI:
+.. Repositorios: interno:
 
 ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pronóstico diario del índice sETI. Donde se debe programar a medio dia en crontab la ejecución del script run.csh ::
 
