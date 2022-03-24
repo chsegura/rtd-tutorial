@@ -13,6 +13,14 @@ ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pron�
       ├── logfiles
       ├── output
       ├── scripts
+          ├── get_GFS_ana.sh
+          ├── get_GFS_eavg.sh
+          ├── get_GFS_ens.sh
+          ├── get_GFS_ens_temp.sh
+          ├── get_GFS_oper.sh
+          ├── get_GFS_oper_temp.sh
+          ├── recoverSETI.sh
+          └── sETI.m
       ├── tmp
       └── upload
       
