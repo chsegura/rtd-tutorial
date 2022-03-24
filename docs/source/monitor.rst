@@ -31,7 +31,7 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
    Este directorio almacena algunos textos predefinidos, además de imágenes estáticas que se muestran en distintas pestañas de la aplicación. 
    
 ``www/``: 
-   El directorio ``www`` además de imágenes varias y logos usados en la aplicación, tiene linkeados en ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoB`). Además de imágenes y logos usados en la aplicación. En ``figures`` y ``upload`` existen repositorios internos de imagenes y archivos generados en ``hw_dynamic/ETI``. 
+   El directorio ``www`` además de imágenes varias y logos usados en la aplicación, tiene linkeados en ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoB`). En ``figures`` y ``upload`` existen repositorios internos de imagenes y archivos generados en ``hw_dynamic/ETI``. 
 
     
 .. Important::
