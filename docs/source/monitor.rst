@@ -1,5 +1,5 @@
 ****
-hw-monitor
+Aplicación
 ****
 
 .. Aplicación:
