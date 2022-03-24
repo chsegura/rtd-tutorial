@@ -58,13 +58,13 @@ Instalando Shiny server
 
 Shiny server construye un servidor web diseñado específicamente para alojar aplicaciones Shiny en un entorno controlado. Los pasos para su instalación consisten en: 
 
-1 Instalar ``gdebi`` 
+1. Instalar ``gdebi`` 
 
 .. code:: bash
 
    sudo apt install gdebi-core
 
-2 Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. 
+2. Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. 
 
 .. code:: bash
 
