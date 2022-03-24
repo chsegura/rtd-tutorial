@@ -34,3 +34,7 @@ Con la finalidad de realizar un monitoreo operacional es necesario establecer un
    └── SERVIMET
 
 Cada uno de estos subdirectorios se describe en las secciones siguientes.
+
+.. note::
+
+   En el esquema mostrado arriba no se muestra la totalidad de archivos contenidos en cada uno de los subdirectorios. 
