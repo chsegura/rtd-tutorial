@@ -32,7 +32,7 @@ JMA
 mjo_repo
 ====
 
-.. figure:: images/main4.gifg
+.. figure:: images/main4.gif
    :width: 100%
    :align: center
    :alt: GitHub template for the tutorial
