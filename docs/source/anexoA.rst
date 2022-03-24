@@ -10,7 +10,7 @@ ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pron�
    :align: center
    :alt: GitHub template for the tutorial
 
-   Índice sETI
+   Índice sETI (panel superior)
 
 Donde se debe programar a medio dia en crontab la ejecución del script run.csh ::
 
