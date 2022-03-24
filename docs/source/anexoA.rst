@@ -34,7 +34,9 @@ ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pron√
    
 Antes de ejecutar estas rutinas se deben cambiar algunas direcciones de los archivos 
 
-1) run.csh ::
+1) run.csh 
+
+.. code:: bash
 
   set diri=/home/matlab/hw_dynamic
 
