@@ -35,7 +35,7 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
 
     
 .. Important::
-   Para generar hw-monitor lo primero es tener instalado R. 
+   Para generar **hw-monitor** lo primero es tener instalado R. 
 
 Instalando Shiny
 ====
