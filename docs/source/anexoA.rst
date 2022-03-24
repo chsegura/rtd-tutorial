@@ -51,8 +51,10 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
 ``tmp/``: Directorio para almacenar las descargas temporales de archivos antes de ser procesados.  
 
 ``upload/``: Aquí se guardan una serie de figuras actualizadas utilizadas en hw-monitor.
+
+.. warning::
    
-Antes de ejecutar ``run.csh`` se deben cambiar algunas direcciones de los scripts 
+   Antes de ejecutar ``run.csh`` se deben cambiar algunas direcciones en los siguientes scripts para adecuarlas a la configuración propia. 
 
 1) run.csh 
 
