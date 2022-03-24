@@ -3,7 +3,7 @@ Repositorios: interno
 
 .. Repositorios: interno:
 
-ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pronóstico diario del índice sETI. 
+El directorio ``ETI`` contiene una serie de subdirectorios, rutinas y scripts que generan un pronóstico diario del índice sETI. 
 
 .. figure:: images/main2.png
    :width: 100%
@@ -12,7 +12,7 @@ ETI contiene una serie de subdirectorios, rutinas y scripts que generan un pron�
 
    Índice sETI (panel superior)
 
-Donde se debe programar a medio dia en crontab la ejecución del script run.csh ::
+Los archivos y directorios de mayor importancia se detallan a continuación: 
 
   hw_dynamic
   ├── ETI
