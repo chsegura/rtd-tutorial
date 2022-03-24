@@ -85,7 +85,14 @@ En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por 
 Instalando paquetes de R
 ====
 
-Esta es una serie de paquetes comúnmente usados en aplicaciones. La lista va más allá de lo que utiliza actualmente hw-monitor, sin embargo es preferible instalar todo de una vez y en caso de implementar nuevas visualizaciones dentro de la aplicación. 
+Para que **hw-monitor** se ejecute correctamente, esta lista de paquetes deben ser instalados: 
+
+.. code:: bash
+
+   sudo su - -c "R -e \"install.packages(c('shiny','shinyBS','dygraphs','leaflet','dplyr','shinythemes','xts','tidyverse','lubridate','RCurl','R.matlab','sf','tmap','spData','sp','ncdf4','raster','rgdal','rjson'), repos='http://cran.rstudio.com/')\""
+
+
+Sin embargo, con el propósito de ir mejorando la aplicación y no tener que ir instalando los paquetes de uno en uno, se recomienda ejecutar esta lista de paquetes más completa:
 
 .. code:: bash
 
