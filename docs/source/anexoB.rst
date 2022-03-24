@@ -21,7 +21,7 @@ JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple
       
 .. warning::
 
-  En estos scripts hay que modificar las siguientes líneas.
+  En estos scripts hay que modificar las siguientes líneas para adecuarlas a la configuración propia..
 
 1. jma_repo.csh
 
