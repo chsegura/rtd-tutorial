@@ -58,31 +58,31 @@ Instalando Shiny server
 
 Shiny server construye un servidor web diseñado específicamente para alojar aplicaciones Shiny en un entorno controlado. Los pasos para su instalación consisten en: 
 
-Instalar ``gdebi`` 
+1 Instalar ``gdebi`` 
 
 .. code:: bash
 
    sudo apt install gdebi-core
 
-Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. 
+2 Debe consultar la página oficial de descarga https://www.rstudio.com/products/shiny/download-server/ para obtener la URL del último binario preconstruido de 64 bits que coincida con su sistema operativo. 
 
 .. code:: bash
 
    wget https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.17.973-amd64.deb
 
-Use gdebi para instalar el paquete Shiny Server
+3 Use gdebi para instalar el paquete Shiny Server
 
 .. code:: bash
 
    sudo gdebi shiny-server-1.5.17.973-amd64.deb
 
-El servidor Shiny debería iniciarse automáticamente. Consulta su estado 
+4 El servidor Shiny debería iniciarse automáticamente. Consulta su estado 
 
 .. code:: bash
 
    sudo systemctl status shiny-server.service
 
-En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por ejemplo, ejemplo.com:3838).
+5 En un navegador, navegue hasta la dirección IP pública en el puerto 3838 (por ejemplo, ejemplo.com:3838).
 
 .. note:: 
    GDebi es una pequeña herramienta que nos permite instalar paquetes DEB de manera rápida y sencilla sin tener que lanzar el Centro de Software de Ubuntu.
