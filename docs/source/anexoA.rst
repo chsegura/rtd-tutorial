@@ -20,7 +20,6 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
       ├── runSETI.csh
       ├── data
       ├── figures
-      ├── files
       ├── logfiles
       ├── output
       ├── scripts
@@ -35,23 +34,25 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
       ├── tmp
       └── upload
       
-``data/``: 
+``run.csh``: Este script es programado en crontab para ejecutarse diariamente. En él se definen algunas variables que luego son utilizadas en ``runSETI.csh``. 
 
-``figures/``: 
+``runSETI.csh``: Este es el script principal que donde es generado el índice sETI. Dentro de él se ejecutan una serie de otros scripts secundarios. 
 
-``files/``: 
+``data/``: Aquí son guardados los archivos utilizados en la generación del índice. 
 
-``logfiles/``: 
+``figures/``: Este es el repositorio de figuras generadas. 
 
-``output/``: 
+``logfiles/``: En este directorio se guarda un archivo de cada ejecución de run.csh. Si por algún motivo la figura del día no es generada, en este archivo se pueden revisar los errores de la ejecución. 
 
-``scripts/``: 
+``output/``: Aquí se guardan todos los archivos de la ejecución del día. 
 
-``tmp/``: 
+``scripts/``: En este directorio se encuentran todos los scripts utilizados en la generación de sETI.
 
-``upload/``: 
+``tmp/``: Directorio para almacenar las descargas temporales de archivos antes de ser procesados.  
+
+``upload/``: Aquí se guardan una serie de figuras actualizadas utilizadas en hw-monitor.
    
-Antes de ejecutar estas rutinas se deben cambiar algunas direcciones de los archivos 
+Antes de ejecutar ``run.csh`` se deben cambiar algunas direcciones de los scripts 
 
 1) run.csh 
 
