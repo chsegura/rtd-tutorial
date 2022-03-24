@@ -4,7 +4,7 @@ Repositorios: externos
 
 .. Repositorios: externos:
 
-JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). En estos scripts hay que modificar las direcciones. ::
+JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). ::
 
   hw_dynamic
   ├── JMA
@@ -18,6 +18,28 @@ JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple
   └── SERVIMET
       ├── cartas_color
       └── servimet.csh
+      
+.. warning::
+
+  En estos scripts hay que modificar las siguientes líneas.
+
+1. jma_repo.csh
+
+.. code:: bash
+  
+  cd /home/matlab/hw_dynamic/JMA
+  
+2. mjo_repo.csh
+
+.. code:: bash
+
+  cd /home/matlab/hw_dynamic/mjo_repo
+  
+3. servimet.csh
+
+.. code:: bash
+
+  cd /home/matlab/hw_dynamic/SERVIMET
 
 JMA
 ====
