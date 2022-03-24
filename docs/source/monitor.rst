@@ -4,7 +4,9 @@ Shiny app: hw-monitor
 
 .. Shiny app: hw-monitor:
 
-**hw-monitor** es una aplicación de **Shiny** cuya función principal es mostrar los pronósticos diarios del índice **sETI**. Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
+**hw-monitor** es una aplicación de **Shiny** cuya función principal es mostrar los pronósticos diarios del índice **sETI** (ver :doc:`anexoA`). 
+
+Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
    
    hw_dynamic
    ├── hw-monitor
