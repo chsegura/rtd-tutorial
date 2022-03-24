@@ -52,6 +52,8 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
 
 ``upload/``: Aquí se guardan una serie de figuras actualizadas utilizadas en hw-monitor.
 
+``seti.m``:  En este script de MATLAB se produce la figura. 
+
 .. warning::
    
    Antes de ejecutar ``run.csh`` se deben cambiar algunas direcciones en los siguientes scripts para adecuarlas a la configuración propia. 
@@ -69,36 +71,3 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
   set diri=/home/matlab/hw_dynamic
   /usr/local/bin/ncdump -v lat temp.nc | sed -e '1,/data:/d' -e '$d' >& latitudes.log
   /usr/local/bin/matlab -nodisplay -nosplash -nodesktop < sETI.m
-
-3) recoverSETI.csh 
-
-.. code:: bash
-
-  set diri=/home/matlab/hw_dynamic
-
-4) get_GFS_ana.csh 
-
-.. code:: bash
-
-  set diri=/home/matlab/hw_dynamic
-
-5) get_GFS_oper.sh 
-
-.. code:: bash
-
-  SCRIPTPATH=/home/matlab/hw_dynamic/ETI/scripts
-  EXDATAPATH=/home/matlab/hw_dynamic/ETI/tmp
-
-6) get_GFS_eavg.sh 
-
-.. code:: bash
-
-  SCRIPTPATH=/home/matlab/hw_dynamic/ETI/scripts
-  EXDATAPATH=/home/matlab/hw_dynamic/ETI/tmp
-
-7) get_GFS_ens.sh 
-
-.. code:: bash
-
-  SCRIPTPATH=/home/matlab/hw_dynamic/ETI/scripts
-  EXDATAPATH=/home/matlab/hw_dynamic/ETI/tmp
