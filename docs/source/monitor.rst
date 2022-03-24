@@ -56,6 +56,8 @@ El **su -** ejecuta el siguiente comando como si estuviera en el propio entorno 
 Instalando Shiny server
 ====
 
+Shiny server construye un servidor web diseñado específicamente para alojar aplicaciones Shiny en un entorno controlado. Los pasos para su instalación consisten en: 
+
 Instalar ``gdebi`` 
 
 .. code:: bash
