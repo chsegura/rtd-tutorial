@@ -45,7 +45,7 @@ JMA
 ====
 
 .. figure:: images/main3.gif
-   :width: 100%
+   :width: 75%
    :align: center
    :alt: GitHub template for the tutorial
 
@@ -55,7 +55,7 @@ mjo_repo
 ====
 
 .. figure:: images/main4.gif
-   :width: 100%
+   :width: 75%
    :align: center
    :alt: GitHub template for the tutorial
 
@@ -65,7 +65,7 @@ SERVIMET
 ====
 
 .. figure:: images/main5.jpeg
-   :width: 100%
+   :width: 75%
    :align: center
    :alt: GitHub template for the tutorial
 
