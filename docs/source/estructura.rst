@@ -37,4 +37,4 @@ Cada uno de estos subdirectorios se describe en las secciones siguientes.
 
 .. note::
 
-   En el esquema mostrado arriba no se muestra la totalidad de archivos contenidos en cada uno de los subdirectorios. 
+   En el esquema mostrado arriba no se muestra la totalidad de archivos contenidos en cada uno de los sub y subsub directorios. 
