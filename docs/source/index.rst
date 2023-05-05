@@ -1,5 +1,9 @@
-Bienvenido al instructivo de hw-monitor!
+¡Bienvenido al instructivo de hw-monitor!
 ===================================
+
+`hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_ es una aplicación de **Shiny** diseñada para monitorear los precursores de olas de calor en la región central de Chile. La aplicación se basa en una serie de repositorios, tanto internos como externos, alojados en los servidores del `Departamento de Geofísica de la Universidad de Concepción <https://www.dgeo.udec.cl/>`_.
+
+Para utilizar **hw-monitor**, diríjase a la sección de instrucciones dentro de la misma aplicación. Si desea obtener más información sobre la estructura del servidor o los repositorios utilizados, consulte las secciones :doc:`estructura`, :doc:`monitor`, :doc:`anexoA` , :doc:`anexoB`.
 
 `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_  es una aplicación de **Shiny** que monitorea precursores de olas de calor en Chile Central. La aplicación se sustenta en una serie de repositorios tanto internos como externos ubicados en servidores del `Departamento de Geofísica de la Universidad de Concepción <https://www.dgeo.udec.cl/>`_. Para usar **hw-monitor** diríjase a la sección de instrucciones de la misma aplicación. Para información sobre la estructura en el servidor así como de los repositorios revise las secciones :doc:`estructura`, :doc:`monitor`, :doc:`anexoA` , :doc:`anexoB`.
 
