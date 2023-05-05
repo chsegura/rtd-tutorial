@@ -10,7 +10,7 @@ Para utilizar **hw-monitor**, diríjase a la sección de instrucciones dentro de
    :align: center
    :alt: GitHub template for the tutorial
 
-   hw-monitor app
+   Figura: hw-monitor app
 
 .. note::
 
