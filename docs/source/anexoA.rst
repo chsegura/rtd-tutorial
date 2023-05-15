@@ -81,7 +81,7 @@ Estos scripts y directorios desempeñan un papel fundamental en la generación d
 Repositorios externos
 ====
 
-JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). ::
+Los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` almacenan figuras descargadas mediante un script simple programado para ejecutarse una vez al día (3 veces en el caso de SERVIMET). ::
 
   hw_dynamic
   ├── JMA
@@ -98,7 +98,7 @@ JMA, mjo_repo y SERVIMET almacenan figuras descargadas mediante un script simple
       
 .. warning::
 
-  En estos scripts hay que modificar las siguientes líneas para adecuarlas a la configuración propia..
+  Es importante tener en cuenta que se deben realizar modificaciones en las siguientes líneas de los scripts para adaptarlos a la configuración propia de su sistema.
 
 1. jma_repo.csh
 
