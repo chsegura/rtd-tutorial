@@ -14,9 +14,9 @@ El directorio ``ETI`` contiene una serie de subdirectorios, rutinas y scripts qu
    :align: center
    :alt: GitHub template for the tutorial
 
-   Índice sETI (panel superior)
+   Figura: Índice sETI (panel superior)
 
-Los archivos y directorios de mayor importancia se detallan a continuación: ::
+A continuación, se detallan los archivos y directorios más importantes: ::
 
   hw_dynamic
   ├── ETI
@@ -38,25 +38,25 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
       ├── tmp
       └── upload
       
-``run.csh``: Este script es programado en crontab para ejecutarse diariamente. En él se definen algunas variables que luego son utilizadas en ``runSETI.csh``. 
+``run.csh``: Este script está programado en crontab para ejecutarse diariamente. En él se definen algunas variables que luego son utilizadas en ``runSETI.csh``. 
 
-``runSETI.csh``: Este es el script principal donde es generado el índice sETI. Dentro de él se ejecutan una serie de otros scripts secundarios. 
+``runSETI.csh``: Este es el script principal donde se genera el índice sETI. Dentro de él se ejecutan una serie de otros scripts secundarios. 
 
-``data/``: Aquí son guardados los archivos utilizados en la generación del índice. 
+``data/``: Aquí se guardan los archivos utilizados en la generación del índice. 
 
 ``figures/``: Este es el repositorio de figuras generadas. 
 
-``logfiles/``: En este directorio se guarda un archivo de cada ejecución de run.csh. Si por algún motivo la figura del día no es generada, en este archivo se pueden revisar los errores de la ejecución. 
+``logfiles/``: En este directorio se guarda un archivo de cada ejecución de ``run.csh``. Si por algún motivo la figura del día no se genera, en este archivo se pueden revisar los errores de la ejecución. 
 
-``output/``: Aquí se guardan todos los archivos de la ejecución del día. 
+``output/``: Aquí se guardan todos los archivos generados durante la ejecución del día. 
 
-``scripts/``: En este directorio se encuentran todos los scripts utilizados en la generación de sETI.
+``scripts/``: En este directorio se encuentran todos los scripts utilizados en la generación del índice sETI.
 
 ``tmp/``: Directorio para almacenar las descargas temporales de archivos antes de ser procesados.  
 
-``upload/``: Aquí se guardan una serie de figuras actualizadas utilizadas en hw-monitor.
+``upload/``: Aquí se guardan una serie de figuras actualizadas utilizadas en `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_.
 
-``seti.m``:  En este script de MATLAB se produce la figura. 
+``seti.m``:  Este script en ``MATLAB`` produce la figura del índice sETI. 
 
 .. warning::
    
@@ -75,6 +75,8 @@ Los archivos y directorios de mayor importancia se detallan a continuación: ::
   set diri=/home/matlab/hw_dynamic
   /usr/local/bin/ncdump -v lat temp.nc | sed -e '1,/data:/d' -e '$d' >& latitudes.log
   /usr/local/bin/matlab -nodisplay -nosplash -nodesktop < sETI.m
+  
+Estos scripts y directorios desempeñan un papel fundamental en la generación del índice sETI, y se deben configurar adecuadamente antes de su ejecución para asegurar el correcto funcionamiento de la aplicación.  
 
 Repositorios externos
 ====
@@ -124,7 +126,7 @@ JMA
    :align: center
    :alt: GitHub template for the tutorial
 
-   OLR y función corriente de 200 hPa y el flujo de actividad de onda (anomalía) emitido por la Agencia Meteorológica de Japón (JMA)
+   Figura: OLR y función corriente de 200 hPa y el flujo de actividad de onda (anomalía) emitido por la Agencia Meteorológica de Japón (JMA)
 
 mjo_repo
 ----
@@ -134,7 +136,7 @@ mjo_repo
    :align: center
    :alt: GitHub template for the tutorial
 
-   Pronóstico basado en MJO GFS emitido por el Centro de Predicción Climática de la NOAA de EE. UU
+   Figura: Pronóstico basado en MJO GFS emitido por el Centro de Predicción Climática de la NOAA de EE. UU
 
 SERVIMET
 ----
@@ -144,4 +146,4 @@ SERVIMET
    :align: center
    :alt: GitHub template for the tutorial
 
-   Cartas sinóptica emitida por el Servicio Meteorológico de la Armada de Chile (SERVIMET)
+   Figura: Cartas sinóptica emitida por el Servicio Meteorológico de la Armada de Chile (SERVIMET)
