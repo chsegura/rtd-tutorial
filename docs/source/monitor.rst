@@ -21,7 +21,7 @@ La estructura del directorio principal del proyecto incluye un directorio de niv
            ├── figures
            └── upload
 
-En detalle, estos elementos son: ::
+En detalle, estos elementos son:
 
 ``ui.R``: 
    Este archivo que significa interfaz de usuario (del inglés), es donde se definen las diferentes partes de las aplicaciones fronterizadas (es decir, lo que ven los usuarios finales).
