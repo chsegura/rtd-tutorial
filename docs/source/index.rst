@@ -24,6 +24,5 @@ Contenidos
    
    estructura
    monitor
-   anexoA
-   anexoB
+   anexoA   
    data
