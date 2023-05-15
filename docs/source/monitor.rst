@@ -1,5 +1,5 @@
 ****
-Shiny app: hw-monitor
+Uso de la aplicación
 ****
 
 .. Shiny app: hw-monitor:
@@ -37,7 +37,7 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
 .. Important::
    Para generar **hw-monitor** lo primero es tener instalado R. 
 
-Instalando Shiny
+Instalación de Shiny
 ====
 
 Si está familiarizado con R, es posible que tenga la tentación de instalar paquetes directamente desde R en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta R. 
@@ -53,7 +53,7 @@ El ``su -`` ejecuta el siguiente comando como si estuviera en el propio entorno 
 .. note::
    Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
 
-Instalando Shiny server
+Instalación de Shiny Server
 ====
 
 Shiny server construye un servidor web diseñado específicamente para alojar aplicaciones Shiny en un entorno controlado. Los pasos para su instalación consisten en: 
@@ -87,7 +87,7 @@ Shiny server construye un servidor web diseñado específicamente para alojar ap
 .. note:: 
    GDebi es una pequeña herramienta que nos permite instalar paquetes DEB de manera rápida y sencilla sin tener que lanzar el Centro de Software de Ubuntu.
 
-Instalando paquetes de R
+Instalación de paquetes de R
 ====
 
 Para que **hw-monitor** se ejecute correctamente, esta lista de paquetes deben ser instalados: 
@@ -103,7 +103,7 @@ Sin embargo, con el propósito de ir mejorando la aplicación y no tener que ir 
 
    sudo su - -c "R -e \"install.packages(c('shiny','dplyr','shinythemes','tidyverse','lubridate','RCurl','R.matlab','tmap','spData','ncdf4','rjson','zoo','xts','dygraphs','hydroTSM','shinyBS','shinyWidgets','rgdal','sf','rgeos','leaflet','colorRamps','zip','grid','gridExtra','readr','shinyjs','leaflet.esri','httpuv','mime','jsonlite','xtable','digest','htmltools','R6','sourcetools','later','promises','crayon','rlang','fastmap','Rcpp','BH','magrittr','sp','lattice','base64enc','crosstalk','htmlwidgets','markdown','png','RColorBrewer','raster','scales','viridis','leaflet.providers','lazyeval','ggplot2','yaml','xfun','farver','labeling','munsell','viridisLite','lifecycle','gtable','MASS','mgcv','reshape2','tibble','withr','glue','colorspace','nlme','Matrix','plyr','stringr','cli','fansi','pillar','pkgconfig','assertthat','utf8','vctrs','stringi','ellipsis','hms','clipr','leaflet.extras','evaluate','pkgload','praise','desc','pkgbuild','rprojroot','rstudioapi','callr','prettyunits','backports','processx','ps','highr','knitr','tinytex','foreign','classInt','DBI','units','e1071','class','KernSmooth','rex','httr','curl','openssl','askpass','sys','commonmark','xml2','hunspell','testthat','rmarkdown','reactlog','maptools','XML','maps','RJSONIO','purrr','covr','egg','spelling','shinyAce','V8'), repos='http://cran.rstudio.com/')\""
 
-Debugging
+Depuración de la aplicación
 ====
 
 Para revisar posibles errores al hacer modificaciones a la aplicación hay que editar el archivo ``/etc/shiny-server/shiny-server.conf`` y agregar las siguientes líneas :: 
