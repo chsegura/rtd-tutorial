@@ -1,5 +1,5 @@
 ****
-Estructura
+Estructura de la aplicación
 ****
 
 .. Estructura:
