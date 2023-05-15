@@ -4,7 +4,7 @@ Estructura
 
 .. Estructura:
 
-Con el objetivo de llevar a cabo un monitoreo operativo eficiente, es fundamental establecer una estructura clara y ordenada para los archivos generados y recopilados de fuentes externas. Para ello, se ha establecido un directorio base denominado "hw_dynamic", en el cual se agrupan las distintas componentes utilizadas en `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_ en subdirectorios que siguen una jerarquía bien definida. El sistema de archivos se organiza de la siguiente manera:
+Con el objetivo de llevar a cabo un monitoreo operativo eficiente, es fundamental establecer una estructura clara y ordenada para los archivos generados y recopilados de fuentes externas. Para ello, se ha establecido un directorio base denominado ``hw_dynamic``, en el cual se agrupan las distintas componentes utilizadas en `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_ en subdirectorios que siguen una jerarquía bien definida. El sistema de archivos se organiza de la siguiente manera:
 ::
 
    hw_dynamic
