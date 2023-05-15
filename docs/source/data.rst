@@ -1,4 +1,4 @@
-Recursos
+Recursos adicionales
 =====
 
 .. Recursos:
