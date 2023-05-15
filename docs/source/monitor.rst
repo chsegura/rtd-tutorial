@@ -4,9 +4,9 @@ Uso de la aplicación
 
 .. Shiny app: hw-monitor:
 
-**hw-monitor** es una aplicación de **Shiny** cuya función principal es mostrar los pronósticos diarios del índice **sETI** (ver :doc:`anexoA`). 
+La aplicación `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_, desarrollada en **Shiny**, tiene como objetivo principal mostrar los pronósticos diarios del índice **sETI** (consultar :doc:`anexoA`).
 
-Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principal del proyecto. Dentro de esto está: ::
+La estructura del directorio principal del proyecto incluye un directorio de nivel superior llamado ``hw-monitor``. Dentro de este directorio se encuentran los siguientes elementos: ::
    
    hw_dynamic
    ├── hw-monitor
@@ -20,6 +20,8 @@ Tenemos un directorio ``hw-monitor`` de nivel superior en el directorio principa
                └── SERVIMET
            ├── figures
            └── upload
+
+En detalle, estos elementos son: ::
 
 ``ui.R``: 
    Este archivo que significa interfaz de usuario (del inglés), es donde se definen las diferentes partes de las aplicaciones fronterizadas (es decir, lo que ven los usuarios finales).
