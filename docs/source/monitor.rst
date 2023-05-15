@@ -41,18 +41,18 @@ En detalle, estos elementos son:
 Instalación de Shiny
 ====
 
-Si está familiarizado con R, es posible que tenga la tentación de instalar paquetes directamente desde R en lugar de hacerlo desde la línea de comandos. Sin embargo, usar el siguiente comando es la forma más segura de garantizar que el paquete se instale para todos los usuarios y no solo para el usuario que actualmente ejecuta R. 
+Si estás familiarizado con R, es posible que te sientas tentado a instalar paquetes directamente desde R en lugar de utilizar la línea de comandos. Sin embargo, para garantizar una instalación segura del paquete y que esté disponible para todos los usuarios, se recomienda seguir el siguiente comando:
 
 .. code:: bash
 
    sudo su - -c "R -e \"install.packages('shiny', repos='http://cran.rstudio.com/')\""
 
-El ``su -`` ejecuta el siguiente comando como si estuviera en el propio entorno del usuario, y la opción ``-c`` especifica el comando que se ejecutará. Ese comando, en este caso, es lo que sigue entre comillas dobles.
+En este comando, el ``sudo su -`` ejecuta el siguiente comando como si estuvieras en el entorno del usuario, y la opción ``-c`` especifica el comando que se ejecutará. Dentro de las comillas dobles, se encuentra el comando específico.
 
-``install.packages`` es el comando R que se usa para instalar paquetes R. Entonces, en este comando específicamente, el paquete Shiny se instala desde el repositorio especificado.
+El comando ``install.packages`` es utilizado en R para instalar paquetes. En este caso, se instala el paquete Shiny desde el repositorio especificado.
 
 .. note::
-   Shiny es una biblioteca para el lenguaje de programación R que permite crear aplicaciones web interactivas en R nativo, sin necesidad de usar tecnologías web como HTML, CSS o JavaScript. 
+   Shiny es una biblioteca del lenguaje de programación R que permite crear aplicaciones web interactivas en R nativo, sin necesidad de utilizar tecnologías web como HTML, CSS o JavaScript. Es una herramienta poderosa para desarrollar aplicaciones web interactivas de manera eficiente utilizando el lenguaje R. 
 
 Instalación de Shiny Server
 ====
