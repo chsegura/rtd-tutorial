@@ -33,7 +33,7 @@ En detalle, estos elementos son:
    Este directorio almacena textos predefinidos y también imágenes estáticas que se muestran en diferentes pestañas de la aplicación. 
    
 ``www/``: 
-   El directorio ``www`` contiene imágenes varias y logotipos utilizados en la aplicación. Además, se encuentran enlazados en el subdirectorio ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoB`). En los subdirectorios ``figures`` y ``upload`` se encuentran los repositorios internos de imágenes y archivos generados en ``hw_dynamic/ETI`` (descrito en :doc:`anexoA`).
+   El directorio ``www`` contiene imágenes varias y logotipos utilizados en la aplicación. Además, se encuentran enlazados en el subdirectorio ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoA`). En los subdirectorios ``figures`` y ``upload`` se encuentran los repositorios internos de imágenes y archivos generados en ``hw_dynamic/ETI`` (descrito en :doc:`anexoA`).
     
 .. Important::
    Es importante tener instalado R para generar y utilizar la aplicación `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_. 
