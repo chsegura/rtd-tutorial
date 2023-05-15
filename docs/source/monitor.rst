@@ -24,20 +24,19 @@ La estructura del directorio principal del proyecto incluye un directorio de niv
 En detalle, estos elementos son:
 
 ``ui.R``: 
-   Este archivo que significa interfaz de usuario (del inglés), es donde se definen las diferentes partes de las aplicaciones fronterizadas (es decir, lo que ven los usuarios finales).
+   Este archivo representa la interfaz de usuario, donde se definen las diferentes partes de la aplicación que los usuarios finales pueden visualizar y utilizar.
    
 ``server.R``:
-    Este archivo por el contrario, es el backend o el motor de la aplicación, es decir, donde se procesan los datos.
+    Este archivo corresponde al backend de la aplicación, es decir, el motor que procesa los datos y controla la lógica de la aplicación.
 
 ``docs/``:
-   Este directorio almacena algunos textos predefinidos, además de imágenes estáticas que se muestran en distintas pestañas de la aplicación. 
+   Este directorio almacena textos predefinidos y también imágenes estáticas que se muestran en diferentes pestañas de la aplicación. 
    
 ``www/``: 
-   El directorio ``www`` además de imágenes varias y logos usados en la aplicación, tiene linkeados en ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoB`). En ``figures`` y ``upload`` existen repositorios internos de imagenes y archivos generados en ``hw_dynamic/ETI`` (descrito en :doc:`anexoA`). 
-
+   El directorio ``www`` contiene imágenes varias y logotipos utilizados en la aplicación. Además, se encuentran enlazados en el subdirectorio ``external_repository`` los repositorios externos ``JMA``, ``mjo_repo`` y ``SERVIMET`` (descritos en :doc:`anexoB`). En los subdirectorios ``figures`` y ``upload`` se encuentran los repositorios internos de imágenes y archivos generados en ``hw_dynamic/ETI`` (descrito en :doc:`anexoA`).
     
 .. Important::
-   Para generar **hw-monitor** lo primero es tener instalado R. 
+   Es importante tener instalado R para generar y utilizar la aplicación `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_. 
 
 Instalación de Shiny
 ====
