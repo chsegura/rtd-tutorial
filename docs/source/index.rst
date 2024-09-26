@@ -12,6 +12,8 @@ Para utilizar `hw-monitor <https://www2.dgeo.udec.cl/shiny/hw-monitor/>`_, dirí
 
    Figura: hw-monitor app
 
+Lumache has its documentation hosted on Read the Docs.
+
 .. note::
 
    Este proyecto se encuentra en estado de desarrollo activo, lo que implica que podrían haber cambios o mejoras en el mismo en un futuro próximo.
